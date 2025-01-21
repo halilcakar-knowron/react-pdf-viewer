@@ -9,7 +9,7 @@
 'use strict';
 
 if (process.env.NODE_ENV === 'production') {
-    module.exports = require('./cjs/highlight.min.js');
+    module.exports = require('./highlight.min.js');
 } else {
-    module.exports = require('./cjs/highlight.js');
+    module.exports = require('./highlight.js');
 }

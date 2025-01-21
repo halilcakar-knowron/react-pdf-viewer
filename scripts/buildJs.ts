@@ -51,7 +51,7 @@ const buildPackage = async (rootPackagePath: string) => {
             input,
             output: {
                 exports: 'named',
-                file: path.join(outputDir, `cjs/${packageName}.js`),
+                file: path.join(outputDir, `${packageName}.cjs.js`),
                 format: 'cjs',
             },
             external,
@@ -74,11 +74,11 @@ const buildPackage = async (rootPackagePath: string) => {
                     hook: 'writeBundle',
                     targets: [
                         {
-                            src: path.join(outputDir, `cjs/${packageName}.css`),
+                            src: path.join(outputDir, `${packageName}.css`),
                             dest: path.join(outputDir, 'styles'),
                         },
                         {
-                            src: path.join(outputDir, `cjs/${packageName}.css`),
+                            src: path.join(outputDir, `${packageName}.css`),
                             dest: path.join(outputDir, 'styles'),
                             rename: 'index.css',
                         },
@@ -86,7 +86,7 @@ const buildPackage = async (rootPackagePath: string) => {
                 }),
                 del({
                     hook: 'writeBundle',
-                    targets: path.join(outputDir, `cjs/${packageName}.css`),
+                    targets: path.join(outputDir, `${packageName}.css`),
                 }),
             ],
             onwarn: handleOnWarn,
@@ -95,7 +95,7 @@ const buildPackage = async (rootPackagePath: string) => {
             input,
             output: {
                 exports: 'named',
-                file: path.join(outputDir, `cjs/${packageName}.min.js`),
+                file: path.join(outputDir, `${packageName}.cjs.min.js`),
                 format: 'cjs',
             },
             external,
@@ -118,11 +118,11 @@ const buildPackage = async (rootPackagePath: string) => {
                     hook: 'writeBundle',
                     targets: [
                         {
-                            src: path.join(outputDir, `cjs/${packageName}.min.css`),
+                            src: path.join(outputDir, `${packageName}.min.css`),
                             dest: path.join(outputDir, 'styles'),
                         },
                         {
-                            src: path.join(outputDir, `cjs/${packageName}.min.css`),
+                            src: path.join(outputDir, `${packageName}.min.css`),
                             dest: path.join(outputDir, 'styles'),
                             rename: 'index.min.css',
                         },
@@ -130,7 +130,7 @@ const buildPackage = async (rootPackagePath: string) => {
                 }),
                 del({
                     hook: 'writeBundle',
-                    targets: path.join(outputDir, `cjs/${packageName}.min.css`),
+                    targets: path.join(outputDir, `${packageName}.min.css`),
                 }),
                 terser(),
             ],

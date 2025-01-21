@@ -9,7 +9,7 @@
 'use strict';
 
 if (process.env.NODE_ENV === 'production') {
-    module.exports = require('./cjs/attachment.min.js');
+    module.exports = require('./attachment.min.js');
 } else {
-    module.exports = require('./cjs/attachment.js');
+    module.exports = require('./attachment.js');
 }

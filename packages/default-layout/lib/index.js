@@ -9,7 +9,7 @@
 'use strict';
 
 if (process.env.NODE_ENV === 'production') {
-    module.exports = require('./cjs/default-layout.min.js');
+    module.exports = require('./default-layout.min.js');
 } else {
-    module.exports = require('./cjs/default-layout.js');
+    module.exports = require('./default-layout.js');
 }

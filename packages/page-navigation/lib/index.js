@@ -9,7 +9,7 @@
 'use strict';
 
 if (process.env.NODE_ENV === 'production') {
-    module.exports = require('./cjs/page-navigation.min.js');
+    module.exports = require('./page-navigation.min.js');
 } else {
-    module.exports = require('./cjs/page-navigation.js');
+    module.exports = require('./page-navigation.js');
 }

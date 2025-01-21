@@ -9,7 +9,7 @@
 'use strict';
 
 if (process.env.NODE_ENV === 'production') {
-    module.exports = require('./cjs/rotate.min.js');
+    module.exports = require('./rotate.min.js');
 } else {
-    module.exports = require('./cjs/rotate.js');
+    module.exports = require('./rotate.js');
 }

@@ -9,7 +9,7 @@
 'use strict';
 
 if (process.env.NODE_ENV === 'production') {
-    module.exports = require('./cjs/theme.min.js');
+    module.exports = require('./theme.min.js');
 } else {
-    module.exports = require('./cjs/theme.js');
+    module.exports = require('./theme.js');
 }

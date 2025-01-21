@@ -9,7 +9,7 @@
 'use strict';
 
 if (process.env.NODE_ENV === 'production') {
-    module.exports = require('./cjs/locale-switcher.min.js');
+    module.exports = require('./locale-switcher.min.js');
 } else {
-    module.exports = require('./cjs/locale-switcher.js');
+    module.exports = require('./locale-switcher.js');
 }

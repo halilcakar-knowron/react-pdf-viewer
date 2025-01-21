@@ -9,7 +9,7 @@
 'use strict';
 
 if (process.env.NODE_ENV === 'production') {
-    module.exports = require('./cjs/toolbar.min.js');
+    module.exports = require('./toolbar.min.js');
 } else {
-    module.exports = require('./cjs/toolbar.js');
+    module.exports = require('./toolbar.js');
 }

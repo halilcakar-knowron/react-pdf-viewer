@@ -9,7 +9,7 @@
 'use strict';
 
 if (process.env.NODE_ENV === 'production') {
-    module.exports = require('./cjs/selection-mode.min.js');
+    module.exports = require('./selection-mode.min.js');
 } else {
-    module.exports = require('./cjs/selection-mode.js');
+    module.exports = require('./selection-mode.js');
 }

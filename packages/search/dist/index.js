@@ -9,7 +9,7 @@
 'use strict';
 
 if (process.env.NODE_ENV === 'production') {
-    module.exports = require('./cjs/search.min.js');
+    module.exports = require('./search.min.js');
 } else {
-    module.exports = require('./cjs/search.js');
+    module.exports = require('./search.js');
 }
