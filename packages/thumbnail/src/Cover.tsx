@@ -8,7 +8,7 @@
 
 'use client';
 
-import { Spinner, type PdfJs, type Store, type StoreHandler } from '@react-pdf-viewer/core';
+import { Spinner, type PdfJs, type Store, type StoreHandler } from '../../core';
 import * as React from 'react';
 import { CoverInner } from './CoverInner';
 import styles from './styles/cover.module.css';

@@ -8,7 +8,7 @@
 
 'use client';
 
-import { Skeleton, randomNumber } from '@react-pdf-viewer/core';
+import { Skeleton, randomNumber } from '../../core';
 import * as React from 'react';
 import styles from './styles/bookmarkSkeleton.module.css';
 

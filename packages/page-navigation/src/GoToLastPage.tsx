@@ -8,7 +8,7 @@
 
 'use client';
 
-import { type Store } from '@react-pdf-viewer/core';
+import { type Store } from '../../core';
 import * as React from 'react';
 import { GoToLastPageButton } from './GoToLastPageButton';
 import { type StoreProps } from './types/StoreProps';

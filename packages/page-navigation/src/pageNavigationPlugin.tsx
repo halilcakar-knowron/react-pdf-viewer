@@ -16,7 +16,7 @@ import {
     type RenderViewer,
     type Slot,
     type ViewerState,
-} from '@react-pdf-viewer/core';
+} from '../../core';
 import * as React from 'react';
 import { CurrentPageInput } from './CurrentPageInput';
 import { CurrentPageLabel, CurrentPageLabelProps } from './CurrentPageLabel';

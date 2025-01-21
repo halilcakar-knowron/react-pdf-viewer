@@ -8,13 +8,7 @@
 
 'use client';
 
-import {
-    getPage,
-    useIntersectionObserver,
-    useSafeState,
-    type PdfJs,
-    type VisibilityChanged,
-} from '@react-pdf-viewer/core';
+import { getPage, useIntersectionObserver, useSafeState, type PdfJs, type VisibilityChanged } from '../../core';
 import * as React from 'react';
 import { SpinnerContext } from './SpinnerContext';
 import { ThumbnailItem } from './ThumbnailItem';

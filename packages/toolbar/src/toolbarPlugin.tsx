@@ -8,27 +8,19 @@
 
 'use client';
 
-import { type Plugin } from '@react-pdf-viewer/core';
-import { fullScreenPlugin, type FullScreenPlugin, type FullScreenPluginProps } from '@react-pdf-viewer/full-screen';
-import { getFilePlugin, type GetFilePlugin, type GetFilePluginProps } from '@react-pdf-viewer/get-file';
-import { openPlugin, type OpenPlugin, type OpenPluginProps } from '@react-pdf-viewer/open';
-import {
-    pageNavigationPlugin,
-    type PageNavigationPlugin,
-    type PageNavigationPluginProps,
-} from '@react-pdf-viewer/page-navigation';
-import { printPlugin, type PrintPlugin, type PrintPluginProps } from '@react-pdf-viewer/print';
-import { propertiesPlugin, type PropertiesPlugin } from '@react-pdf-viewer/properties';
-import { rotatePlugin, type RotatePlugin } from '@react-pdf-viewer/rotate';
-import { scrollModePlugin, type ScrollModePlugin } from '@react-pdf-viewer/scroll-mode';
-import { searchPlugin, type SearchPlugin, type SearchPluginProps } from '@react-pdf-viewer/search';
-import {
-    selectionModePlugin,
-    type SelectionModePlugin,
-    type SelectionModePluginProps,
-} from '@react-pdf-viewer/selection-mode';
-import { themePlugin, type ThemePlugin } from '@react-pdf-viewer/theme';
-import { zoomPlugin, type ZoomPlugin, type ZoomPluginProps } from '@react-pdf-viewer/zoom';
+import { type Plugin } from '../../core';
+import { fullScreenPlugin, type FullScreenPlugin, type FullScreenPluginProps } from '../../full-screen';
+import { getFilePlugin, type GetFilePlugin, type GetFilePluginProps } from '../../get-file';
+import { openPlugin, type OpenPlugin, type OpenPluginProps } from '../../open';
+import { pageNavigationPlugin, type PageNavigationPlugin, type PageNavigationPluginProps } from '../../page-navigation';
+import { printPlugin, type PrintPlugin, type PrintPluginProps } from '../../print';
+import { propertiesPlugin, type PropertiesPlugin } from '../../properties';
+import { rotatePlugin, type RotatePlugin } from '../../rotate';
+import { scrollModePlugin, type ScrollModePlugin } from '../../scroll-mode';
+import { searchPlugin, type SearchPlugin, type SearchPluginProps } from '../../search';
+import { selectionModePlugin, type SelectionModePlugin, type SelectionModePluginProps } from '../../selection-mode';
+import { themePlugin, type ThemePlugin } from '../../theme';
+import { zoomPlugin, type ZoomPlugin, type ZoomPluginProps } from '../../zoom';
 import * as React from 'react';
 import { Toolbar, ToolbarProps } from './Toolbar';
 import { renderDefaultToolbar } from './renderDefaultToolbar';

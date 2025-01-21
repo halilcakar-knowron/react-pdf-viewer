@@ -8,7 +8,7 @@
 
 'use client';
 
-import { Spinner, type PdfJs } from '@react-pdf-viewer/core';
+import { Spinner, type PdfJs } from '../../core';
 import * as React from 'react';
 import styles from './styles/propertiesLoader.module.css';
 import { type PropertiesData } from './types/PropertiesData';

@@ -8,7 +8,7 @@
 
 'use client';
 
-import { SpecialZoomLevel, type Store } from '@react-pdf-viewer/core';
+import { SpecialZoomLevel, type Store } from '../../core';
 import * as React from 'react';
 import { ZoomPopover } from './ZoomPopover';
 import { type RenderZoomProps } from './types/RenderZoomProps';

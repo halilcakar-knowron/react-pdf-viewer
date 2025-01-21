@@ -8,7 +8,7 @@
 
 'use client';
 
-import { FullScreenMode, type Store } from '@react-pdf-viewer/core';
+import { FullScreenMode, type Store } from '../../core';
 import * as React from 'react';
 import { type StoreProps } from './types/StoreProps';
 

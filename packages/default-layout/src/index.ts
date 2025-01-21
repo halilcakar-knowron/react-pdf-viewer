@@ -8,7 +8,7 @@
 
 'use client';
 
-export { type ToolbarPluginProps, type ToolbarProps, type ToolbarSlot } from '@react-pdf-viewer/toolbar';
+export { type ToolbarPluginProps, type ToolbarProps, type ToolbarSlot } from '../../toolbar';
 export { BookmarkIcon } from './BookmarkIcon';
 export { FileIcon } from './FileIcon';
 export { type SidebarTab } from './Sidebar';

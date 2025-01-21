@@ -8,7 +8,7 @@
 
 'use client';
 
-import { LocalizationContext, TextBox, type LocalizationMap, type Store } from '@react-pdf-viewer/core';
+import { LocalizationContext, TextBox, type LocalizationMap, type Store } from '../../core';
 import * as React from 'react';
 import styles from './styles/currentPageInput.module.css';
 import { type StoreProps } from './types/StoreProps';

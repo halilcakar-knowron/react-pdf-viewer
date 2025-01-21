@@ -8,7 +8,7 @@
 
 'use client';
 
-import { type Plugin } from '@react-pdf-viewer/core';
+import { type Plugin } from '../../core';
 import * as React from 'react';
 import { LocalePopover, LocalePopoverProps } from './LocalePopover';
 

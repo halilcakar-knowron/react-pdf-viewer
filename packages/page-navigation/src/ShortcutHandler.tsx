@@ -8,7 +8,7 @@
 
 'use client';
 
-import { isMac, type Store } from '@react-pdf-viewer/core';
+import { isMac, type Store } from '../../core';
 import * as React from 'react';
 import { type StoreProps } from './types/StoreProps';
 import { useCurrentPage } from './useCurrentPage';

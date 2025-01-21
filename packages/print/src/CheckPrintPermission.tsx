@@ -8,14 +8,7 @@
 
 'use client';
 
-import {
-    Button,
-    LocalizationContext,
-    Modal,
-    type LocalizationMap,
-    type PdfJs,
-    type Store,
-} from '@react-pdf-viewer/core';
+import { Button, LocalizationContext, Modal, type LocalizationMap, type PdfJs, type Store } from '../../core';
 import * as React from 'react';
 import { PrintStatus } from './structs/PrintStatus';
 import styles from './styles/checkPrintPermission.module.css';

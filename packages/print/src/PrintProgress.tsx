@@ -16,7 +16,7 @@ import {
     TextDirection,
     ThemeContext,
     type LocalizationMap,
-} from '@react-pdf-viewer/core';
+} from '../../core';
 import * as React from 'react';
 import styles from './styles/printProgress.module.css';
 

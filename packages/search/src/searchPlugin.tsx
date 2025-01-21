@@ -17,7 +17,7 @@ import {
     type PluginRenderPageLayer,
     type RenderViewer,
     type Slot,
-} from '@react-pdf-viewer/core';
+} from '../../core';
 import * as React from 'react';
 import { Highlights } from './Highlights';
 import { Search, SearchProps } from './Search';

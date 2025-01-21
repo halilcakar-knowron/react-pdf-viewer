@@ -8,7 +8,7 @@
 
 'use client';
 
-import { getDestination, type PdfJs, type Store } from '@react-pdf-viewer/core';
+import { getDestination, type PdfJs, type Store } from '../../core';
 import * as React from 'react';
 import { BookmarkList } from './BookmarkList';
 import { DownArrowIcon } from './DownArrowIcon';

@@ -8,7 +8,7 @@
 
 'use client';
 
-import { LocalizationContext, MinimalButton, Position, Tooltip, type LocalizationMap } from '@react-pdf-viewer/core';
+import { LocalizationContext, MinimalButton, Position, Tooltip, type LocalizationMap } from '../../core';
 import * as React from 'react';
 import { UpArrowIcon } from './UpArrowIcon';
 import { type RenderGoToPageProps } from './types/index';

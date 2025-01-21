@@ -6,7 +6,7 @@
  * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
  */
 
-import { type PdfJs } from '@react-pdf-viewer/core';
+import { type PdfJs } from '../../core';
 
 export const getOddPagesNumbers = (doc: PdfJs.PdfDocument): number[] =>
     Array(doc.numPages)

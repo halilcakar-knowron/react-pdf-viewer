@@ -8,7 +8,7 @@
 
 'use client';
 
-import { classNames, TextDirection, ThemeContext } from '@react-pdf-viewer/core';
+import { classNames, TextDirection, ThemeContext } from '../../core';
 import * as React from 'react';
 import styles from './styles/propertyItem.module.css';
 

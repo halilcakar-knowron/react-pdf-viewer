@@ -8,7 +8,7 @@
 
 'use client';
 
-import { LocalizationContext, type LocalizationMap, type PdfJs } from '@react-pdf-viewer/core';
+import { LocalizationContext, type LocalizationMap, type PdfJs } from '../../core';
 import * as React from 'react';
 import { SpinnerContext } from './SpinnerContext';
 

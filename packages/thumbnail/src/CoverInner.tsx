@@ -17,7 +17,7 @@ import {
     type Store,
     type StoreHandler,
     type VisibilityChanged,
-} from '@react-pdf-viewer/core';
+} from '../../core';
 import * as React from 'react';
 import styles from './styles/cover.module.css';
 import { type StoreProps } from './types/StoreProps';

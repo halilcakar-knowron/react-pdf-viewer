@@ -8,7 +8,7 @@
 
 'use client';
 
-import { useDebounceCallback, useIsomorphicLayoutEffect, type Store } from '@react-pdf-viewer/core';
+import { useDebounceCallback, useIsomorphicLayoutEffect, type Store } from '../../core';
 import * as React from 'react';
 import { type StoreProps } from './types/StoreProps';
 

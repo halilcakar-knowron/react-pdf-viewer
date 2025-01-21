@@ -8,7 +8,7 @@
 
 'use client';
 
-import { Popover, Position, type Store, type Toggle } from '@react-pdf-viewer/core';
+import { Popover, Position, type Store, type Toggle } from '../../core';
 import * as React from 'react';
 import { SearchPopover } from './SearchPopover';
 import { ShowSearchPopoverButton } from './ShowSearchPopoverButton';

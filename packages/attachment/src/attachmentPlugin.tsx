@@ -8,7 +8,7 @@
 
 'use client';
 
-import { createStore, type Plugin, type PluginOnDocumentLoad } from '@react-pdf-viewer/core';
+import { createStore, type Plugin, type PluginOnDocumentLoad } from '../../core/src';
 import * as React from 'react';
 import { AttachmentListWithStore } from './AttachmentListWithStore';
 import { type StoreProps } from './types/StoreProps';

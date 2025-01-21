@@ -8,7 +8,7 @@
 
 'use client';
 
-import { MenuItem, ViewMode } from '@react-pdf-viewer/core';
+import { MenuItem, ViewMode } from '../../core';
 import * as React from 'react';
 import { SwitchViewModeDecorator } from './SwitchViewModeDecorator';
 import { type RenderSwitchViewModeProps } from './types/RenderSwitchViewModeProps';

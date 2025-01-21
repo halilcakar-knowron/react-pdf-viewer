@@ -6,7 +6,7 @@
  * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
  */
 
-import { ViewMode } from '@react-pdf-viewer/core';
+import { ViewMode } from '../../core';
 
 export interface RenderSwitchViewModeProps {
     isDisabled: boolean;

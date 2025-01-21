@@ -8,7 +8,7 @@
 
 'use client';
 
-import { ScrollMode, ViewMode, type Store } from '@react-pdf-viewer/core';
+import { ScrollMode, ViewMode, type Store } from '../../core';
 import * as React from 'react';
 import { SwitchViewModeButton } from './SwitchViewModeButton';
 import { switchViewMode } from './switchViewMode';

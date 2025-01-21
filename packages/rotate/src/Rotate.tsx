@@ -8,7 +8,7 @@
 
 'use client';
 
-import { RotateDirection, type Store } from '@react-pdf-viewer/core';
+import { RotateDirection, type Store } from '../../core';
 import * as React from 'react';
 import { RotateButton } from './RotateButton';
 import { type RenderRotateProps } from './types/RenderRotateProps';

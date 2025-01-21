@@ -8,7 +8,7 @@
 
 'use client';
 
-import { LocalizationContext, ScrollMode, type LocalizationMap } from '@react-pdf-viewer/core';
+import { LocalizationContext, ScrollMode, type LocalizationMap } from '../../core';
 import * as React from 'react';
 import { HorizontalScrollingIcon } from './HorizontalScrollingIcon';
 import { PageScrollingIcon } from './PageScrollingIcon';

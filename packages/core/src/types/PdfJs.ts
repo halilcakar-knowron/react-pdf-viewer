@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-namespace */
 /**
  * A React component to view a PDF document
  *

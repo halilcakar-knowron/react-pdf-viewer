@@ -8,7 +8,7 @@
 
 'use client';
 
-import { LocalizationContext, MenuItem, type LocalizationMap } from '@react-pdf-viewer/core';
+import { LocalizationContext, MenuItem, type LocalizationMap } from '../../core';
 import * as React from 'react';
 import { InfoIcon } from './InfoIcon';
 import { type RenderShowPropertiesProps } from './types/RenderShowPropertiesProps';

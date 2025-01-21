@@ -8,8 +8,8 @@
 
 'use client';
 
-import { attachmentPlugin, type AttachmentPlugin } from '@react-pdf-viewer/attachment';
-import { bookmarkPlugin, type BookmarkPlugin } from '@react-pdf-viewer/bookmark';
+import { attachmentPlugin, type AttachmentPlugin } from '../../attachment';
+import { bookmarkPlugin, type BookmarkPlugin } from '../../bookmark';
 import {
     TextDirection,
     classNames,
@@ -18,14 +18,9 @@ import {
     type Plugin,
     type PluginOnDocumentLoad,
     type RenderViewer,
-} from '@react-pdf-viewer/core';
-import { thumbnailPlugin, type ThumbnailPlugin, type ThumbnailPluginProps } from '@react-pdf-viewer/thumbnail';
-import {
-    toolbarPlugin,
-    type ToolbarPlugin,
-    type ToolbarPluginProps,
-    type ToolbarProps,
-} from '@react-pdf-viewer/toolbar';
+} from '../../core';
+import { thumbnailPlugin, type ThumbnailPlugin, type ThumbnailPluginProps } from '../../thumbnail';
+import { toolbarPlugin, type ToolbarPlugin, type ToolbarPluginProps, type ToolbarProps } from '../../toolbar';
 import * as React from 'react';
 import { Sidebar, SidebarTab } from './Sidebar';
 import styles from './styles/defaultLayout.module.css';

@@ -22,7 +22,7 @@ import {
     classNames,
     type LocalizationMap,
     type Toggle,
-} from '@react-pdf-viewer/core';
+} from '../../core';
 import * as React from 'react';
 import styles from './styles/zoomPopover.module.css';
 

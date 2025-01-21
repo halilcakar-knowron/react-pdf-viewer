@@ -6,7 +6,7 @@
  * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
  */
 
-import { Icon } from '@react-pdf-viewer/core';
+import { Icon } from '../../core';
 import * as React from 'react';
 
 export const ThumbnailIcon: React.FC = () => (

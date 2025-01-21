@@ -8,7 +8,7 @@
 
 'use client';
 
-import { Spinner, type PdfJs, type Store, type StoreHandler } from '@react-pdf-viewer/core';
+import { Spinner, type PdfJs, type Store, type StoreHandler } from '../../core/src';
 import * as React from 'react';
 import { AttachmentLoader } from './AttachmentLoader';
 import styles from './styles/attachmentListWithStore.module.css';

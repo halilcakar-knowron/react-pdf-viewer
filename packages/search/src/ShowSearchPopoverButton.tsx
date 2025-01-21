@@ -8,7 +8,7 @@
 
 'use client';
 
-import { MinimalButton, Position, Tooltip, isMac, type Store, type StoreHandler } from '@react-pdf-viewer/core';
+import { MinimalButton, Position, Tooltip, isMac, type Store, type StoreHandler } from '../../core';
 import * as React from 'react';
 import { ShowSearchPopoverDecorator } from './ShowSearchPopoverDecorator';
 import { type StoreProps } from './types/StoreProps';

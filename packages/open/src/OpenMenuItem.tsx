@@ -8,7 +8,7 @@
 
 'use client';
 
-import { LocalizationContext, MenuItem, type LocalizationMap, type Store } from '@react-pdf-viewer/core';
+import { LocalizationContext, MenuItem, type LocalizationMap, type Store } from '../../core';
 import * as React from 'react';
 import { OpenFileIcon } from './OpenFileIcon';
 import styles from './styles/openInput.module.css';

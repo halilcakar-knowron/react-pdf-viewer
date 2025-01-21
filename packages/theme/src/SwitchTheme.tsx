@@ -8,7 +8,7 @@
 
 'use client';
 
-import { ThemeContext } from '@react-pdf-viewer/core';
+import { ThemeContext } from '../../core';
 import * as React from 'react';
 import { SwitchThemeButton } from './SwitchThemeButton';
 

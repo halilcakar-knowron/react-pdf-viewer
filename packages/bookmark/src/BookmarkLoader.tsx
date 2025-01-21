@@ -16,7 +16,7 @@ import {
     type LocalizationMap,
     type PdfJs,
     type Store,
-} from '@react-pdf-viewer/core';
+} from '../../core';
 import * as React from 'react';
 import { BookmarkListRoot } from './BookmarkListRoot';
 import { BookmarkSkeleton } from './BookmarkSkeleton';

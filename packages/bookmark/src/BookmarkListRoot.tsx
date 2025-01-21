@@ -8,7 +8,7 @@
 
 'use client';
 
-import { type PdfJs, type Store } from '@react-pdf-viewer/core';
+import { type PdfJs, type Store } from '../../core';
 import * as React from 'react';
 import { BookmarkList } from './BookmarkList';
 import styles from './styles/bookmarkItem.module.css';

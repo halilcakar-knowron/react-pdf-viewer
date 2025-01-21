@@ -8,14 +8,7 @@
 
 'use client';
 
-import {
-    isMac,
-    LocalizationContext,
-    MinimalButton,
-    Position,
-    Tooltip,
-    type LocalizationMap,
-} from '@react-pdf-viewer/core';
+import { isMac, LocalizationContext, MinimalButton, Position, Tooltip, type LocalizationMap } from '../../core';
 import * as React from 'react';
 import { PrintIcon } from './PrintIcon';
 import { type RenderPrintProps } from './types/RenderPrintProps';

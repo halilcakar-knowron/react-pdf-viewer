@@ -8,7 +8,7 @@
 
 'use client';
 
-import { LocalizationContext, ViewMode, type LocalizationMap } from '@react-pdf-viewer/core';
+import { LocalizationContext, ViewMode, type LocalizationMap } from '../../core';
 import * as React from 'react';
 import { DualPageCoverViewModeIcon } from './DualPageCoverViewModeIcon';
 import { DualPageViewModeIcon } from './DualPageViewModeIcon';

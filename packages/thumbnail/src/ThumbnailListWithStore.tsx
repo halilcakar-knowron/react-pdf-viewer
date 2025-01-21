@@ -16,7 +16,7 @@ import {
     type PdfJs,
     type Store,
     type StoreHandler,
-} from '@react-pdf-viewer/core';
+} from '../../core';
 import * as React from 'react';
 import { FetchLabels } from './FetchLabels';
 import { SpinnerContext } from './SpinnerContext';

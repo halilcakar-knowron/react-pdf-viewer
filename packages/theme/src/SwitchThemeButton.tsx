@@ -8,14 +8,7 @@
 
 'use client';
 
-import {
-    LocalizationContext,
-    MinimalButton,
-    Position,
-    ThemeContext,
-    Tooltip,
-    type LocalizationMap,
-} from '@react-pdf-viewer/core';
+import { LocalizationContext, MinimalButton, Position, ThemeContext, Tooltip, type LocalizationMap } from '../../core';
 import * as React from 'react';
 import { DarkIcon } from './DarkIcon';
 import { LightIcon } from './LightIcon';

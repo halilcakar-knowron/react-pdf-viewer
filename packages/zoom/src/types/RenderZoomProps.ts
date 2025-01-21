@@ -6,7 +6,7 @@
  * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
  */
 
-import { SpecialZoomLevel } from '@react-pdf-viewer/core';
+import { SpecialZoomLevel } from '../../core';
 
 export interface RenderZoomProps {
     scale: number;

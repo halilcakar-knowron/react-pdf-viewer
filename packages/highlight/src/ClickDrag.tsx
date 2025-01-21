@@ -8,7 +8,7 @@
 
 'use client';
 
-import { type Store } from '@react-pdf-viewer/core';
+import { type Store } from '../../core';
 import * as React from 'react';
 import { getImageFromArea } from './getImageFromArea';
 import styles from './styles/clickDrag.module.css';

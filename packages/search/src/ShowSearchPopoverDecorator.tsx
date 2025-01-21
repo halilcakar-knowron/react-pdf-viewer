@@ -8,7 +8,7 @@
 
 'use client';
 
-import { LocalizationContext, type LocalizationMap } from '@react-pdf-viewer/core';
+import { LocalizationContext, type LocalizationMap } from '../../core';
 import * as React from 'react';
 import { SearchIcon } from './SearchIcon';
 

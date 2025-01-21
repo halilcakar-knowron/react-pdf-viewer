@@ -8,13 +8,7 @@
 
 'use client';
 
-import {
-    classNames,
-    LocalizationContext,
-    TextDirection,
-    ThemeContext,
-    type LocalizationMap,
-} from '@react-pdf-viewer/core';
+import { classNames, LocalizationContext, TextDirection, ThemeContext, type LocalizationMap } from '../../core';
 import * as React from 'react';
 import styles from './styles/dropArea.module.css';
 import { useDrop } from './useDrop';

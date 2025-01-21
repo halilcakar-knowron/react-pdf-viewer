@@ -15,7 +15,7 @@ import {
     type PluginFunctions,
     type PluginOnDocumentLoad,
     type ViewerState,
-} from '@react-pdf-viewer/core';
+} from '../../core';
 import * as React from 'react';
 import { Cover } from './Cover';
 import { SpinnerContext, defaultSpinner } from './SpinnerContext';

@@ -8,7 +8,7 @@
 
 'use client';
 
-import { useSafeState, type PdfJs } from '@react-pdf-viewer/core';
+import { useSafeState, type PdfJs } from '../../core';
 import * as React from 'react';
 import { isRunningInJest } from './isRunningInJest';
 import styles from './styles/pageThumbnail.module.css';

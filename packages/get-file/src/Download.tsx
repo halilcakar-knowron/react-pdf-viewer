@@ -8,7 +8,7 @@
 
 'use client';
 
-import { type OpenFile, type PdfJs, type Store, type StoreHandler } from '@react-pdf-viewer/core';
+import { type OpenFile, type PdfJs, type Store, type StoreHandler } from '../../core';
 import * as React from 'react';
 import { DownloadButton } from './DownloadButton';
 import { downloadFile } from './downloadFile';

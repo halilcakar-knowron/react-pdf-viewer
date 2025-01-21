@@ -6,7 +6,7 @@
  * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
  */
 
-import { type Destination, type PdfJs, type PluginOnTextLayerRender } from '@react-pdf-viewer/core';
+import { type Destination, type PdfJs, type PluginOnTextLayerRender } from '../../core';
 import { type MatchPosition } from './MatchPosition';
 import { type NormalizedKeyword } from './NormalizedKeyword';
 import { type SearchTargetPageFilter } from './SearchTargetPage';

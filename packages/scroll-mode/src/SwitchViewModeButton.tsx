@@ -8,7 +8,7 @@
 
 'use client';
 
-import { MinimalButton, Position, Tooltip, ViewMode } from '@react-pdf-viewer/core';
+import { MinimalButton, Position, Tooltip, ViewMode } from '../../core';
 import * as React from 'react';
 import { SwitchViewModeDecorator } from './SwitchViewModeDecorator';
 import { type RenderSwitchViewModeProps } from './types/RenderSwitchViewModeProps';

@@ -8,7 +8,7 @@
 
 'use client';
 
-import { type PdfJs, type Store } from '@react-pdf-viewer/core';
+import { type PdfJs, type Store } from '../../core';
 import * as React from 'react';
 import { type Match } from './types/Match';
 import { type SearchTargetPageFilter } from './types/SearchTargetPage';

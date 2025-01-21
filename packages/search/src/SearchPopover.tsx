@@ -21,7 +21,7 @@ import {
     classNames,
     type LocalizationMap,
     type Store,
-} from '@react-pdf-viewer/core';
+} from '../../core';
 import * as React from 'react';
 import { NextIcon } from './NextIcon';
 import { PreviousIcon } from './PreviousIcon';
