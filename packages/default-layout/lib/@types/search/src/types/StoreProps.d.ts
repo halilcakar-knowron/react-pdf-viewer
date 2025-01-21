@@ -1,4 +1,4 @@
-import { type Destination, type PdfJs, type PluginOnTextLayerRender } from '../../core';
+import { type Destination, type PdfJs, type PluginOnTextLayerRender } from '../../../core';
 import { type MatchPosition } from './MatchPosition';
 import { type NormalizedKeyword } from './NormalizedKeyword';
 import { type SearchTargetPageFilter } from './SearchTargetPage';

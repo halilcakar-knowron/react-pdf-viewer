@@ -6,34 +6,34 @@
  * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
  */
 
-import { type EnterFullScreenMenuItemProps, type EnterFullScreenProps } from '../../full-screen';
-import { type DownloadMenuItemProps, type DownloadProps } from '../../get-file';
-import { type OpenProps } from '../../open';
+import { type EnterFullScreenMenuItemProps, type EnterFullScreenProps } from '../../../full-screen';
+import { type DownloadMenuItemProps, type DownloadProps } from '../../../get-file';
+import { type OpenProps } from '../../../open';
 import {
     type CurrentPageLabelProps,
     type GoToPageMenuItemProps,
     type GoToPageProps,
     type NumberOfPagesProps,
-} from '../../page-navigation';
-import { type PrintMenuItemProps, type PrintProps } from '../../print';
-import { type ShowPropertiesMenuItemProps, type ShowPropertiesProps } from '../../properties';
-import { type RotateDecoratorProps, type RotateProps } from '../../rotate';
+} from '../../../page-navigation';
+import { type PrintMenuItemProps, type PrintProps } from '../../../print';
+import { type ShowPropertiesMenuItemProps, type ShowPropertiesProps } from '../../../properties';
+import { type RotateDecoratorProps, type RotateProps } from '../../../rotate';
 import {
     type SwitchScrollModeMenuItemProps,
     type SwitchScrollModeProps,
     type SwitchViewModeMenuItemProps,
     type SwitchViewModeProps,
-} from '../../scroll-mode';
-import { type SearchProps, type ShowSearchPopoverProps } from '../../search';
-import { type SwitchSelectionModeMenuItemProps, type SwitchSelectionModeProps } from '../../selection-mode';
-import { type SwitchThemeMenuItemProps, type SwitchThemeProps } from '../../theme';
+} from '../../../scroll-mode';
+import { type SearchProps, type ShowSearchPopoverProps } from '../../../search';
+import { type SwitchSelectionModeMenuItemProps, type SwitchSelectionModeProps } from '../../../selection-mode';
+import { type SwitchThemeMenuItemProps, type SwitchThemeProps } from '../../../theme';
 import {
     type CurrentScaleProps,
     type ZoomInProps,
     type ZoomMenuItemProps,
     type ZoomOutProps,
     type ZoomProps,
-} from '../../zoom';
+} from '../../../zoom';
 import * as React from 'react';
 
 export interface ToolbarSlot {

@@ -1,4 +1,4 @@
-import { ScrollMode, ViewMode } from '../../core';
+import { ScrollMode, ViewMode } from '../../../core';
 export interface StoreProps {
     scrollMode: ScrollMode;
     viewMode: ViewMode;

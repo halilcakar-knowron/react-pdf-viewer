@@ -328,25 +328,25 @@ export const ThumbnailList: React.FC<{
             onKeyDown={handleKeyDown}
         >
             {chunks.map((chunkItem, index) => {
-                let isSelectedChunk = false;
-                switch (viewMode) {
-                    case ViewMode.DualPage:
-                        isSelectedChunk = currentPage === 2 * index || currentPage === 2 * index + 1;
-                        break;
+                // let isSelectedChunk = false;
+                // switch (viewMode) {
+                //     case ViewMode.DualPage:
+                //         isSelectedChunk = currentPage === 2 * index || currentPage === 2 * index + 1;
+                //         break;
 
-                    case ViewMode.DualPageWithCover:
-                        isSelectedChunk =
-                            // The first page
-                            (currentPage === 0 && index === 0) ||
-                            (index > 0 && currentPage === 2 * index - 1) ||
-                            (index > 0 && currentPage === 2 * index);
-                        break;
+                //     case ViewMode.DualPageWithCover:
+                //         isSelectedChunk =
+                //             // The first page
+                //             (currentPage === 0 && index === 0) ||
+                //             (index > 0 && currentPage === 2 * index - 1) ||
+                //             (index > 0 && currentPage === 2 * index);
+                //         break;
 
-                    case ViewMode.SinglePage:
-                    default:
-                        isSelectedChunk = currentPage === index;
-                        break;
-                }
+                //     case ViewMode.SinglePage:
+                //     default:
+                //         isSelectedChunk = currentPage === index;
+                //         break;
+                // }
 
                 return (
                     <div

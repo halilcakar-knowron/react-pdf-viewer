@@ -1,4 +1,4 @@
-import { RotateDirection, ViewMode, type PdfJs } from '../../core';
+import { RotateDirection, ViewMode, type PdfJs } from '../../../core';
 export interface StoreProps {
     currentPage?: number;
     doc?: PdfJs.PdfDocument;

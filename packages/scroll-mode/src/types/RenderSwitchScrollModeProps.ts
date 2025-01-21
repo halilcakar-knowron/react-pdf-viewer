@@ -6,7 +6,7 @@
  * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
  */
 
-import { ScrollMode } from '../../core';
+import { ScrollMode } from '../../../core';
 
 export interface RenderSwitchScrollModeProps {
     isDisabled: boolean;

@@ -1,4 +1,4 @@
-import { type Destination, type PdfJs } from '../../core';
+import { type Destination, type PdfJs } from '../../../core';
 export interface StoreProps {
     currentPage?: number;
     doc?: PdfJs.PdfDocument;

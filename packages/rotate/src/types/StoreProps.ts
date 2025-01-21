@@ -6,7 +6,7 @@
  * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
  */
 
-import { RotateDirection } from '../../core';
+import { RotateDirection } from '../../../core';
 
 export interface StoreProps {
     rotate?(direction: RotateDirection): void;

@@ -2956,13 +2956,6 @@ const ThumbnailList = ({
       onKeyDown: handleKeyDown
     },
     chunks.map((chunkItem, index) => {
-      switch (viewMode) {
-        case ViewMode.DualPage:
-          break;
-        case ViewMode.DualPageWithCover:
-          break;
-        case ViewMode.SinglePage:
-      }
       return /* @__PURE__ */ React__namespace.createElement(
         "div",
         {

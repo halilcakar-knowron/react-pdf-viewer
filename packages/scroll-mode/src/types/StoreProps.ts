@@ -6,7 +6,7 @@
  * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
  */
 
-import { ScrollMode, ViewMode } from '../../core';
+import { ScrollMode, ViewMode } from '../../../core';
 
 export interface StoreProps {
     scrollMode: ScrollMode;

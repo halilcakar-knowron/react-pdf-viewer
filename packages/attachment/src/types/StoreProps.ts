@@ -6,7 +6,7 @@
  * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
  */
 
-import { type PdfJs } from '../../../core/src';
+import { type PdfJs } from '../../../core';
 
 export interface StoreProps {
     doc?: PdfJs.PdfDocument;

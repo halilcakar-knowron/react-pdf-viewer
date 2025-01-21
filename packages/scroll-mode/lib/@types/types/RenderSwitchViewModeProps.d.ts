@@ -1,4 +1,4 @@
-import { ViewMode } from '../../core';
+import { ViewMode } from '../../../core';
 export interface RenderSwitchViewModeProps {
     isDisabled: boolean;
     isSelected: boolean;

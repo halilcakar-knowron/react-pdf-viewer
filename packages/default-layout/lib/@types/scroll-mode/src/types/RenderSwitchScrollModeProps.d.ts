@@ -1,4 +1,4 @@
-import { ScrollMode } from '../../core';
+import { ScrollMode } from '../../../core';
 export interface RenderSwitchScrollModeProps {
     isDisabled: boolean;
     isSelected: boolean;

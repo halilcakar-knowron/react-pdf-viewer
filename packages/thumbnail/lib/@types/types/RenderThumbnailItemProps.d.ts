@@ -1,4 +1,4 @@
-import { RotateDirection } from '../../core';
+import { RotateDirection } from '../../../core';
 import * as React from 'react';
 export interface RenderThumbnailItemProps {
     currentPage: number;

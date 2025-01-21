@@ -8,7 +8,7 @@
 
 'use client';
 
-import { createStore, type Plugin, type PluginOnDocumentLoad } from '../../core/src';
+import { createStore, type Plugin, type PluginOnDocumentLoad } from '../../core';
 import * as React from 'react';
 import { AttachmentListWithStore } from './AttachmentListWithStore';
 import { type StoreProps } from './types/StoreProps';

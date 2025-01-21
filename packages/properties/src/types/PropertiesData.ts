@@ -6,7 +6,7 @@
  * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
  */
 
-import { type PdfJs } from '../../core';
+import { type PdfJs } from '../../../core';
 
 export interface PropertiesData {
     fileName: string;

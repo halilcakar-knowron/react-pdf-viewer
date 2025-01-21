@@ -15,7 +15,7 @@ import {
     classNames,
     useIsomorphicLayoutEffect,
     type LocalizationMap,
-} from '../../core/src';
+} from '../../core';
 import * as React from 'react';
 import { downloadFile } from './downloadFile';
 import styles from './styles/attachmentList.module.css';
