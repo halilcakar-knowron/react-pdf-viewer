@@ -17,10 +17,10 @@ import {
     type ViewerState,
 } from '@react-pdf-viewer/core';
 import * as React from 'react';
-import { SwitchScrollMode, SwitchScrollModeProps } from './SwitchScrollMode';
+import { SwitchScrollMode, SwitchScrollModeProps } from './SwitchScrollModeRender';
 import { SwitchScrollModeButton } from './SwitchScrollModeButton';
 import { SwitchScrollModeMenuItem } from './SwitchScrollModeMenuItem';
-import { SwitchViewMode, SwitchViewModeProps } from './SwitchViewMode';
+import { SwitchViewMode, SwitchViewModeProps } from './SwitchViewModeRender';
 import { SwitchViewModeButton } from './SwitchViewModeButton';
 import { SwitchViewModeMenuItem } from './SwitchViewModeMenuItem';
 import { switchScrollMode } from './switchScrollMode';
