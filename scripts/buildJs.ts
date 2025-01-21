@@ -51,7 +51,7 @@ const buildPackage = async (rootPackagePath: string) => {
             input,
             output: {
                 exports: 'named',
-                file: path.join(outputDir, `${packageName}.cjs.js`),
+                file: path.join(outputDir, `${packageName}.js`),
                 format: 'cjs',
             },
             external,
@@ -95,7 +95,7 @@ const buildPackage = async (rootPackagePath: string) => {
             input,
             output: {
                 exports: 'named',
-                file: path.join(outputDir, `${packageName}.cjs.min.js`),
+                file: path.join(outputDir, `${packageName}.min.js`),
                 format: 'cjs',
             },
             external,
